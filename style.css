@@ -1,0 +1,51 @@
+ *{
+	 padding:0%;
+	 margin:0%;
+	 
+ }
+ .container{
+	 background:#00f;
+	 position:relative;
+ }
+ .car{
+	 position:absolute;
+	 z-index:1;
+	 top:320px;
+	 right:-50px;
+	 animation:run 5s infinite linear;
+ }
+ .car2{
+	 top:380px;
+	 right:50px;
+	 animation-duration:15s;
+	 
+ }
+
+ .car-body img{
+	 width:200px;
+ }
+ .tair{
+	 position:absolute;
+ }
+ .tair img{
+	 width:40px;
+	 animation:rotate 5s infinite linear;
+	 position:relative;
+ }
+ .tair1 {
+	 left:35px;
+	 top:106px;
+ }
+ .tair2 {
+	 left:128px;
+	 top:106px;
+ }
+ .road img{
+	 width:100%
+ }
+ @keyframes rotate{
+	 100%{transform:rotate(-360deg);}
+ }
+ @keyframes run{
+	 100% {transform:translatex(-1200px);}
+ }
